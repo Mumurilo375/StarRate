@@ -9,7 +9,7 @@ body{
 .logo{
     z-index: 30;
     width: 47px;
-    position: relative;
+    position: absolute;;
     left: 360px;
     top: 10px;
     transition: transform 0.37s ease-in-out;
@@ -63,19 +63,19 @@ transition-duration: 0.5s;
 /*
 POSICIONAMENTO DE TEXTO HEADER
 */
-#starRate{position: relative; left: 410px; bottom: 22px; font-size: 36px; line-height: 29px; letter-spacing: 3px;
+#starRate{position: absolute; left: 410px; bottom: 757px; font-size: 36px; line-height: 29px; letter-spacing: 3px;
 background-image: linear-gradient(to bottom right, #c8cfd7, #606366); }
 #starRate:hover{color: #c8cfd7; text-shadow: 0 0 25px rgba(255, 255, 255, 0.07); font-size: 36.4px;}
 
-#singin{position: relative; left: 630px; bottom: 50px; font-size: 23px; line-height: 20px; letter-spacing: 0.4px;
+#singin{position: absolute;; left: 630px; bottom: 758.3px; font-size: 23px; line-height: 20px; letter-spacing: 0.4px;
 background-image: linear-gradient(to bottom right, #c8cfd7, #606366); }
 #singin:hover{color: #c8cfd7; text-shadow: 0 0 25px rgba(255, 255, 255, 0.07); font-size: 23.4px;}
 
-#createAccount{position: relative; left: 765px; bottom: 78.2px; font-size: 23px; line-height: 20px; letter-spacing: 0.4px;
+#createAccount{position: absolute;; left: 765px; bottom: 758.2px; font-size: 23px; line-height: 20px; letter-spacing: 0.4px;
 background-image: linear-gradient(to bottom right, #c8cfd7, #606366); }
 #createAccount:hover{color: #c8cfd7; text-shadow: 0 0 25px rgba(255, 255, 255, 0.07); font-size: 23.4px;}
 
-#films{position: relative; left: 965px; bottom: 106.2px; font-size: 23px; line-height: 20px; letter-spacing: 0.4px;
+#films{position: absolute; left: 965px; bottom: 758px; font-size: 23px; line-height: 20px; letter-spacing: 0.4px;
 background-image: linear-gradient(to bottom right, #c8cfd7, #606366); }
 #films:hover{color: #c8cfd7; text-shadow: 0 0 25px rgba(255, 255, 255, 0.07); font-size: 23.4px;}
 /*
@@ -94,14 +94,25 @@ FIM DO HEADER
 */
 
 
-
-.fight{
-    opacity: 0.6;
-    border-radius: 60px;
-    position: relative;
-    bottom: 220px;
+.banner{
+    opacity: 0.8;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 71px;
+    left: 250px;
+    height: 740px;
+    width: 1240px;
 }
 
+/*.banner{
+    opacity: 0.8;
+    border-radius: 40px;
+    position: relative;
+    bottom: 240px;
+    left: 192.5px;
+    height: 790px;
+    width: 1340px;
+}*/
 
 
 
