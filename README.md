@@ -1,0 +1,2 @@
+# StarRate
+Projeto StarRate TADS
