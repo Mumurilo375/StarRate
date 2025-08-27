@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-cd "C:\xampp\htdocs\projeto\Versão final"
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -22,9 +22,9 @@ cd "C:\xampp\htdocs\projeto\Versão final"
                 <li><a href="index.php"><img class="logo" src="img/Logo.png" alt="StarRate"></a>
                 <div id="opcoesHeader">
                     <li><a href="index.php"><h1 id="starRate">StarRate</h1></a></li>
-                    <li><a href=""><h1 id="singin">ENTRAR</h1></a>
-                    <li><a href=""><h1 id="createAccount">CRIAR CONTA</h1></a>
-                    <li><a href=""><h1 id="films">FILMES</h1></a>
+                    <li><a href="a"><h1 id="singin">ENTRAR</h1></a>
+                    <li><a href="a"><h1 id="createAccount">CRIAR CONTA</h1></a>
+                    <li><a href="a"><h1 id="films">FILMES</h1></a>
                 </div>
             </ol>
             <form class="search-container">
@@ -42,10 +42,13 @@ cd "C:\xampp\htdocs\projeto\Versão final"
     </header>
     
     <div>
-        <img class="fight" src="img/fight.jp" alt="">
+        <img class="banner" src="https://pbs.twimg.com/media/GxC5NfRWcAAUujf?format=jpg&name=4096x4096" alt="">
     </div>
     
     
+    
+
+
 </body>
 </html>
 
