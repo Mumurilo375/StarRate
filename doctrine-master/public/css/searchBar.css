@@ -1,0 +1,73 @@
+/* --- ESTILOS DA BARRA DE PESQUISA --- */
+
+/* 1. O Contêiner Principal */
+.search-container {
+  display: flex; /* Alinha o input e o botão lado a lado */
+  align-items: center; /* Centraliza verticalmente */
+  
+  /* Cor de fundo semitransparente, como na imagem */
+  background-color: rgba(70, 70, 80, 0.3); 
+  
+  padding: 8px 15px; /* Espaçamento interno */
+  
+  /* A chave para o formato de "pílula" */
+  border-radius: 50px; 
+  
+  width: 100%;
+  max-width: 220px;
+  
+  /* Sombra sutil para dar profundidade */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  
+  /* Transição suave para o efeito de foco */
+  transition: box-shadow 0.3s ease-in-out;
+
+  position: relative;
+  left: 1128px;
+  bottom: 164px;
+}
+
+/* 2. O Campo de Texto (Input) */
+.search-input {
+  flex-grow: 1; /* Faz o input ocupar todo o espaço disponível */
+  
+  /* Remove todas as aparências padrão */
+  background: transparent;
+  border: none;
+  outline: none;
+  
+  /* Estilo do texto */
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Estiliza o texto do "placeholder" */
+.search-input::placeholder {
+  color: #ccc;
+}
+
+/* 3. O Botão com o Ícone */
+.search-button {
+  /* Remove aparências padrão do botão */
+  background: transparent;
+  border: none;
+  outline: none;
+  
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  padding: 0; /* Remove padding extra */
+  margin-left: 10px; /* Espaço entre o texto e o ícone */
+  position: relative;
+  right: 26px;
+  bottom: 1.8px;
+}
+
+/* Estilo do ícone SVG dentro do botão */
+.search-button svg {
+  color: #c28906; /* Cor do ícone */
+}
+
+/* --- EFEITO EXTRA: BRILHO AO FOCAR --- */
+/* A pseudoclasse :focus-within é ativada quando qualquer elemento dentro do container (nosso input) recebe foco */
+.search-container:focus-within {
+  box-shadow: 0 0 0 2px rgba(237, 193, 87, 0.6); /* Adiciona um brilho azulado ao focar */
+}
